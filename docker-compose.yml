@@ -30,7 +30,7 @@ services:
     image: satstralia/satstralia-web-nostr:0.1
     restart: always
     ports:
-      - 8080:8080
+      - 8888:8888
     volumes:
       - ./relay/onion_urls.txt:/app/onion_urls.txt:ro
       - ./relay/config/strfry.conf:/etc/strfry.conf:ro
