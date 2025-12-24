@@ -26,6 +26,15 @@ services:
     ports:
       - "6177:3000"
       - "2233:22"
+  relay:
+    image: satstralia/satstralia-web-nostr:0.1
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./relay/onion_urls.txt:/app/onion_urls.txt:ro
+      - ./relay/config/strfry.conf:/etc/strfry.conf:ro
+      - ./relay/db:/app/strfry-db:rw
   tor:
     build: ./tor
     restart: always
