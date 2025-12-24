@@ -1,0 +1,7 @@
+gitea/git/*
+gitea/gitea/conf
+tor/data/cached-certs
+tor/data/cached-microdesc-consensus
+tor/data/cached-microdescs.new
+tor/data/lock
+tor/data/state
