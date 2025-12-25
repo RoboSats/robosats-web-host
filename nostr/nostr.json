@@ -7,13 +7,10 @@
       "temple": "74001620297035daa61475c069f90b6950087fea0d0134b795fac758c34e7191",
       "lake": "f2d4855df39a7db6196666e8469a07a131cddc08dcaa744a344343ffcf54a10c",
       "veneto": "794fd64603a78e7411b782f7830f18762e7d6ea70022991bc7ce146bfc3f3da4",
-      "moon": "7af6f7cfc3bfdf8aa65df2465aa7841096fa8ee6b2d4d14fc43d974e5db9ab96"
-    },
-    "relays": {
-      "645681b9d067b1a362c4bee8ddff987d2466d49905c26cb8fec5e6fb73af5c84": [ "wss://nostr.robosats.com", "wss://eden.nostr.land", "wss://relay.0xchat.com", "wss://wot.nostr.party" ],
-      "4352378dfd9c552efc03203ec0ce288652abf0f15399ab06815216ae83aa99c8": [ "wss://nostr.robosats.com", "wss://relay.damus.io", "wss://relay.0xchat.com", "wss://wot.nostr.party" ],
-      "794fd64603a78e7411b782f7830f18762e7d6ea70022991bc7ce146bfc3f3da4": [ "wss://relay.primal.net","wss://relay.damus.io","wss://relay.bitcoinveneto.org","wss://nos.lol"],
-      "74001620297035daa61475c069f90b6950087fea0d0134b795fac758c34e7191": [ "wss://unsafe.templeofsats.org/nostr", "wss://nos.lol", "wss://relay.0xchat.com", "wss://wot.nostr.party" ],
-      "f2d4855df39a7db6196666e8469a07a131cddc08dcaa744a344343ffcf54a10c": [ "wss://nostr.thebiglake.org", "wss://relay.primal.net", "wss://relay.damus.io", "wss://relay.hodl.ar" ]
+      "moon": "7af6f7cfc3bfdf8aa65df2465aa7841096fa8ee6b2d4d14fc43d974e5db9ab96",
+      "bazaar": "95521a33ba34f5924464f425e81b896b1aa9069796a778368ed053e3612c509b",
+      "freedomsats": "ded3dc02a1a9b61ce59d11f496539cb3fd15f00326a16f47e5f8d76baba24bdb",
+      "whiteyesats": "e185c2ad0b87b3207ac2b96d6b8fb1ff10fbf25f93eef4d04fb6dbb9039f19fb",
+      "alice": "40d33962fdf26e0910805f36a3a96b239cf93b95d4a3e6dd779f1ea3ff9b0866"
     }
   }
