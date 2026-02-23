@@ -42,6 +42,16 @@ services:
     volumes:
       - ./tor/data:/var/lib/tor
       - ./tor/torrc:/etc/tor/torrc
+  onionbalance:
+    build: ./onionbalance
+    restart: always
+    network_mode: host
+    volumes:
+      - ./onionbalance/config:/etc/onionbalance:ro
+      - ./onionbalance/data:/var/lib/onionbalance
+      - ./tor/data:/var/lib/tor:ro
+    depends_on:
+      - tor
   certbot:
     image: certbot/certbot:latest
     restart: always
