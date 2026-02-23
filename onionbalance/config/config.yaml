@@ -1,0 +1,18 @@
+# Onionbalance Config File
+# The frontend key path is substituted at runtime by entrypoint.sh
+# __KEY_FILE__ will be replaced with the actual absolute path to the generated .key file
+services:
+  - key: __KEY_FILE__
+    instances:
+      - address: ngdk7ocdzmz5kzsysa3om6du7ycj2evxp2f2olfkyq37htx3gllwp2yd.onion
+        name: backend1
+      - address: 4t4jxmivv6uqej6xzx2jx3fxh75gtt65v3szjoqmc4ugdlhipzdat6yd.onion
+        name: backend2
+      - address: otmoonrndnrddqdlhu6b36heunmbyw3cgvadqo2oqeau3656wfv7fwad.onion
+        name: backend3
+      - address: librebazovfmmkyi2jekraxsuso3mh622avuuzqpejixdl5dhuhb4tid.onion
+        name: backend4
+      - address: dqmmejfmtlve7d4ccohk4usriifdtci6xk4wv7igxn2fyaduh25s6did.onion
+        name: backend5
+      - address: alice7bqexhtnkiqhtgkuwgtzzfkishw23ac4sfwpznrwlmnipxlomyd.onion
+        name: backend6
